@@ -3,20 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Page</title>
+    <title>Aniversário Otávio</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     
     <header class="hero frieren--quarto">
         <div class="container">
             <div class="hero__text">
-                <p>O aniversário do Otávio Coelho começa em: 10d 12h</p>
+                <p>
+                    O aniversário do Otávio Coelho começa em:
+                </p>
+                <span id="contador"></span>
+                
             </div>
             <div class="infos-bar">
                 <ul class="infos-bar__infos">
@@ -39,7 +44,7 @@
     </header>
     <section class="frieren frieren--primary">
         <h1 class="title"> A melhor festa de todas</h1>
-        <div class="container">
+        <div class="container" data-aos="fade-right">
             <div class="frieren__details">
                 <h2 class="frieren__details__title"> Churrasco </h2>
                 <p class="frieren__details__description">
@@ -50,7 +55,7 @@
         </div>
     </section>
     <section class="frieren frieren--secondary frieren--image-left">
-        <div class="container">
+        <div class="container" data-aos="fade-left">
             <div class="frieren__details">
                 <h2 class="frieren__details__title"> Bebidas</h2>
                 <p class="frieren__details__description">
@@ -61,7 +66,7 @@
         </div>
     </section>
     <section class="frieren frieren--terceiro">
-        <div class="container">
+        <div class="container" data-aos="fade-right">
             <div class="frieren__details">
                 <h2 class="frieren__details__title">Musica</h2>
                 <p class="frieren__details__description">
@@ -72,7 +77,7 @@
         </div>
     </section>
 
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>
