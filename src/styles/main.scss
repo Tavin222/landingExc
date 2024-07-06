@@ -1,12 +1,14 @@
 @use "hero";
 @use "frieren";
-@use "footer";
+@use "components/infos-bar";
+@use "components/buttons";
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Baskervville SC, serif;
+    list-style: none;
 }
 
 .container {
@@ -29,32 +31,4 @@
     justify-content: center;
     margin-bottom: 90px;
     font-size: 40px;
-}
-
-.title--small {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 30px;
-    font-size: 20px;
-}
-
-.button {
-    position: sticky;
-    top: 0;
-    
-    margin: 0 auto;
-    display: flex;
-    
-    left: 0;
-    float: right;
-    margin-right: 30px;
-    margin-top: 30px;
-    background-color: black;
-    padding: 10px 24px;
-    color: red;
-    border: none;
-    font-weight: bold;
-    cursor: pointer;
-    
 }

@@ -3,7 +3,7 @@
 
 
     &--primary{
-        background-image: linear-gradient(aqua, rgb(4, 107, 107));
+        background-image: linear-gradient(rgb(102, 150, 223), rgb(4, 107, 107));
     }
 
     &--secondary{
@@ -11,7 +11,11 @@
     }
     
     &--terceiro{
-        background-image: linear-gradient(rgba(216, 57, 57, 0.568), rgb(221, 215, 133));
+        background-image: linear-gradient(rgba(216, 57, 57, 0.568), rgb(233, 162, 221));
+    }
+
+    &--quarto {
+        background-image: linear-gradient(purple, rgb(102, 150, 223));
     }
 
     &--image-left{
@@ -28,12 +32,6 @@
 
     &__image {
         max-width: 360px;
-
-        &--secondary {
-            max-width: 760px;
-            max-height: 560px;
-            margin-top: 150px;
-        }
     }
 
     &__details {

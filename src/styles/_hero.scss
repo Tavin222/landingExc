@@ -1,15 +1,26 @@
 .hero {
-    padding-top: 10px;
-    padding-bottom: 400px;
-    background-image: url(../images/1330710.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    max-height: 100px;
+    padding-top: 64px;
+    padding-bottom: 100px;
 
 
-    &__logo {
-        margin: 0 auto;
-        height: 220px;
-        display: block;
+    &__text {
+        margin-top: 64px;
+        margin-bottom: 64px;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 56px;
+        color: #fff;
+        text-align: center;
     }
+
+
+    @media (max-width: 640px) {
+        padding: 40px 0;
+        
+        &__text {
+            font-size: 22px;
+            line-height: 24px;
+        }
+    }
+
 }
